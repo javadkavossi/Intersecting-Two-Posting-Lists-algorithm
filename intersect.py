@@ -44,11 +44,12 @@ file2_path = "file2.txt"
 file1_words = extract_words_from_file(file1_path)
 file2_words = extract_words_from_file(file2_path)
 
-word_dictionary = create_word_dictionary(file1_words, file2_words)
+word_set_file1 = set(file1_words)
+word_set_file2 = set(file2_words)
 
-posting_list_file1 = [file for word, files in word_dictionary.items() if "file1.text" in files]
-posting_list_file2 = [file for word, files in word_dictionary.items() if "file2.text" in files]
+common_words = word_set_file1.intersection(word_set_file2)
 
-common_documents = intersect_posting_lists(posting_list_file1, posting_list_file2)
+print("کلمات مشترک بین فایل 1 و فایل 2:", common_words)
 
-print("اسناد مشترک بین فایل 1 و فایل 2:", common_documents)
+
+
