@@ -1,0 +1,20 @@
+hjvjhgvhgcjgckgkhlihgq\
+lknbvdklbdf;hbvkzbdjla;bhjkf.hjvn
+hello
+javadkavossi
+bv jlsfdbvl a;vjkdhabjhvb dljvb alhue .zsdkjnvb szd
+vSDVn .jkdsnb vjb.;s/ zJVB javad SDJ>HvbDS>HJvbc .jdshbvj.ksdJNc vsjDHVnlSHD<B c≥JKDhb
+echo "# Intersecting-Two-Posting-Lists-algorithm" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/javadkavossi/Intersecting-Two-Posting-Lists-algorithm.git
+git push -u origin main
+echo "# Intersecting-Two-Posting-Lists-algorithm" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/javadkavossi/Intersecting-Two-Posting-Lists-algorithm.git
+git push -u origin main
